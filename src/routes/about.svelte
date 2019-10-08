@@ -19,6 +19,7 @@
 		let response = await fetch('postapi', {
 			method: 'POST',
 			mode: 'same-origin',
+			credentials: 'include',
 			headers: {
 				'Content-Type': 'application/json'
 			},
